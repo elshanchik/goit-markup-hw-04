@@ -426,6 +426,14 @@ ol {
 
 /* FOOTER */
 
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.index-container {
+    margin-right: 120px;
+}
 
 .index-footer {
     background-color: var(--title-color);
@@ -463,14 +471,6 @@ ol {
 }
 
 /* SOCIAL-MEDIA */
-
-.social-media-container {
-    display: flex;
-    align-items: baseline;
-    margin-right: 120px;
-}
-
-
 
 .social-media {
     font-weight: 500;
@@ -702,6 +702,10 @@ ol {
 }
 
 /* FOOTER */
+
+.portfolio-footer-container {
+    margin-right: 120px;
+}
 
 .portfolio-footer {
     background-color: var(--title-color);
